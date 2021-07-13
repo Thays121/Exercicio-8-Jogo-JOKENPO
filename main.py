@@ -49,7 +49,7 @@ while True:
         break
     j2 = random.randint(1,3)
     jogadas.append([j1, j2])
-    #resultados = vencedor (j1, j2)
+    resultados = vencedor (j1, j2)
     #print(vencedor(j1, j2))
 
     for jogada in jogadas:
@@ -57,5 +57,6 @@ while True:
             print(dado, end=' ')
         print()
 
-
-print('Numero de vitorias do jogador 1: {}'.format(resultados[0]))
+print('Numero de vitorias do Jogador 1: {}'.format(resultados[0]))
+print('Numero de vitorias do Jogador 2: {}'.format(resultados[1]))
+print('Numero de empates: {}'.format(resultados[2]))
